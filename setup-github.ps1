@@ -70,5 +70,4 @@ Write-Host "   - GitHub Actions tab > latest build > build-artifacts" -Foregroun
 Write-Host "   - Extract and copy JAR to mods folder" -ForegroundColor Gray
 Write-Host ""
 Write-Host "====================================" -ForegroundColor Cyan
-Write-Host "Ready! Press any key to continue..." -ForegroundColor Cyan
-Read-Host ""
+Write-Host "Ready! Follow the steps above." -ForegroundColor Cyan
