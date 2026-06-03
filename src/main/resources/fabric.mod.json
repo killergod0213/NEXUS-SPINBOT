@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "spinbot",
+  "version": "${version}",
+  "name": "Spinbot Mod",
+  "description": "A spinbot mod with menu, hotkey control, and RGB FOV circle",
+  "authors": [
+    "SpinBot Developer"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/spinbot/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.spinbot.mod.SpinbotMod"
+    ],
+    "client": [
+      "com.spinbot.mod.SpinbotModClient"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.10",
+    "java": ">=21"
+  }
+}
